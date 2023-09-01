@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Online Recruitment Solution</title>
+
+    <!-- CSS and other resources -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="login.css">
+
+    <style>
+        #home h1 {
+
+            color: rgb(231, 14, 14);
+
+            margin: 20px;
+
+            font-size: 32px;
+
+            font-family: cursive;
+
+            font-weight: 800;
+
+            text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+
+
+
+        }
+
+        #home img {
+
+            box-shadow: 1px 1px 4px whitesmoke;
+
+        }
+
+        #home marquee h1 {
+
+            color: rgb(50, 231, 14);
+
+            margin: 20px;
+
+            font-size: 38px;
+
+            font-family: cursive;
+
+            font-weight: 800;
+
+            text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+        }
+
+        #features {
+
+            display: flex;
+
+
+
+
+
+            justify-content: center;
+
+        }
+
+
+
+
+        #about li {
+
+            color: rgb(238, 220, 220);
+
+            margin: 20px;
+
+            padding: 20px;
+
+            font-size: 22px;
+
+            font-family: cursive;
+
+            font-weight: 800;
+
+            text-shadow: 1px 1px 1px rgb(141, 93, 93);
+
+        }
+
+        #about b {
+
+            color: rgb(245, 8, 8);
+
+            margin: 20px;
+
+            padding: 20px;
+
+            font-size: 28px;
+
+            font-family: cursive;
+
+            font-weight: 1000;
+
+            text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+        }
+
+        #features b {
+
+            color: red;
+
+            margin-top: 20px;
+
+            padding: 20px;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-weight: 800;
+
+            text-shadow: 1px 1px 1px rgb(252, 244, 244);
+
+        }
+
+        #features p {
+
+            color: rgb(255, 254, 254);
+
+            margin: 20px;
+
+            padding: 20px;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-weight: 800;
+
+            text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+        }
+    </style>
+
+</head>
+
+<body style="background: rgb(0, 0, 0);">
+
+    <nav class="navbar navbar-expand-sm navbar-dark"
+        style="background:linear-gradient(45deg,rgb(218, 116, 170),blueviolet);position: sticky;top: 0px;">
+
+        <a class="navbar-brand" href="#">DIGITAL RECRUITMENT</a>
+
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item active">
+
+                    <a class="nav-link" href="file.html">Home</span></a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="search.html">Search</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="login.html">Login</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#features">Features</a>
+
+                </li>
+
+
+
+
+
+
+
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                    <li class="nav-item" style="float: right;">
+
+                        <a class="nav-link" href="login.html">Login</a>
+
+                        <a class="nav-link" href="signup.html">signup</a>
+
+                    </li>
+
+                </ul>
+
+
+
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+            </form>
+
+        </div>
+
+    </nav>
+
+    <div id="home">
+
+        <marquee>
+            <h1>Welcome to our Online Recruitment Solution!</h1>
+        </marquee>
+
+        <center>
+            <h1>Efficient Hiring Made Easy for HR Professionals and Hiring Managers</h1>
+        </center>
+
+        <center> <img
+                src="data:image/jpeg;base64,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"
+                width="700" height="500"></img>
+
+        </center>
+
+
+
+    </div>
+
+    <div id="about" style="width: 100vw;color:white;height: 100vh;background-color: rgba(0, 0, 0, 0.712);">
+
+        <b> What is online recruitment?</b>
+
+        <ul>
+
+            <li>Online recruitment or e-recruitment or internet recruitment is the process of filling job positions
+                using web-based resources and software to find, attract, interview and hire new employees into your
+                organisation.
+
+            </li>
+
+            <li>cloud based or internet based software, you can post jobs, accept applications and communicate with
+                applicants and monitor their progress throughout the whole hiring process.
+
+            </li>
+
+            <li>Online recruitment benefits from active and passive recruitment techniques as well, which means that the
+                ideal candidate is never that far away from being able to apply - and done correctly, you can fulfil a
+                database of candidates for future positions in your organisation should you wish to do so.
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+    <div id="features" style="width: 100vw;height: 100vh;">
+
+        <p>
+
+            <b>Streamlined Hiring Process:</b> Simplify your recruitment workflow and save time with our intuitive
+            platform.<br>
+
+            <br><br>
+
+            <b>Comprehensive Candidate Profiles:</b>Access detailed profiles of qualified candidates, including their
+            experience, skills, and education.<br>
+
+            <br><br> <b>Advanced Search Filters:</b>Quickly find the right candidates based on location and job roles,
+            ensuring a perfect fit for your company.<br>
+
+            <br><br><b>Applicant Tracking System:</b> Stay organized with our integrated applicant tracking system,
+            managing candidate applications seamlessly.<br>
+
+            <br><br> <b>Collaborative Hiring:</b> Engage your team with collaborative tools, allowing multiple
+            stakeholders to review and evaluate candidates.<br>
+
+            <br><br> <b>Customizable Workflows:</b> Tailor the recruitment process to your company's needs and automate
+            repetitive tasks.<br>
+
+            <br><br><b>Data-driven Insights:</b> Gain valuable insights with analytics and reporting features, enabling
+            data-driven decision-making.
+        </p>
+
+
+
+
+
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+
+
+
+</body>
+
+</html>
